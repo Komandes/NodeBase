@@ -1,5 +1,26 @@
 {
   "dependencies": {
-    "mongodb": "^4.1.2"
-  }
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "mongodb": "^4.1.2",
+    "node": "^17.0.1"
+  },
+  "name": "nodebase",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Komandes/NodeBase.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Komandes/NodeBase/issues"
+  },
+  "homepage": "https://github.com/Komandes/NodeBase#readme",
+  "description": ""
 }
